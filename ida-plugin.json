@@ -1,0 +1,38 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "comida",
+    "entryPoint": "comida.py",
+    "version": "2025.9.24",
+    "idaVersions": ">=7.4",
+    "platforms": [
+      "windows-x86_64"
+    ],
+    "description": "Analyze modules using COM by finding GUID references and inferring types.",
+    "license": "Apache 2.0",
+    "categories": [
+      "malware-analysis",
+      "decompilation",
+      "ui-ux-and-visualization"
+    ],
+    "urls": {
+      "repository": "https://github.com/airbus-cert/comida"
+    },
+    "authors": [{
+      "name": "citronneur",
+      "email": "citronneur@gmail.com"
+    }],
+    "keywords": [
+      "com",
+      "guid",
+      "windows",
+      "type-inference",
+      "cocreateinstance",
+      "queryinterface",
+      "hexrays",
+      "decompiler",
+      "malware-analysis",
+      "windows-internals"
+    ]
+  }
+}
